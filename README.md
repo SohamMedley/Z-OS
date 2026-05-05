@@ -22,7 +22,7 @@ The interface features a "Gen-Z premium" hacker aesthetic, utilizing a terminal-
 * Backend: FastAPI (Python)
 * Automation: PyAutoGUI & Subprocess
 * Frontend: HTML5, CSS3 (Liquid Glass/Premium UI), Vanilla JavaScript
-* Voice: Windows 11 Native Voice Engine (Win + H)
+* Voice: Windows 11 Native Voice Engine 
 
 ---
 
