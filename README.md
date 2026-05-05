@@ -1,72 +1,41 @@
-# 🚀 Project Overview
-
-**Z-OS** is an aggressive, next-generation local operating system interface designed to bridge the gap between **natural language** and **raw machine execution**.
-
-The system bypasses standard GUI limitations by connecting a powerful **Large Language Model (LLM)** directly to underlying hardware via **Python execution protocols**.
-
-It utilizes **Groq LPU (Language Processing Unit)** technology to parse user intent and generate execution arrays with near-zero latency (**under 0.2 seconds**).
+# Z-OS
 
 ---
 
-## ⚡ Core Capabilities
+## Project Overview
 
-* 🧠 **Native App Hijacking**
-  Allows the AI to open, manipulate, and forcefully terminate local applications like **Notepad** or **Spotify** at the OS level.
+Z-OS is an aggressive, next-generation local operating system interface designed to bridge the gap between natural language and raw machine execution.
 
-* 🖥️ **Direct Hardware Interaction**
-  Eliminates traditional UI bottlenecks by executing commands closer to system-level processes.
+The system bypasses standard GUI limitations by connecting a powerful Large Language Model (LLM) directly to underlying hardware via Python execution protocols.
 
-* ⚙️ **Real-Time Execution Feedback**
-  Terminal-style log system displaying:
+It utilizes Groq LPU (Language Processing Unit) technology to parse user intent and generate execution arrays with near-zero latency (under 0.2 seconds).
 
-  * 🔍 *Reasoning*
-  * ⚡ *Execution Steps*
+Core capabilities include Native App Hijacking, which allows the AI to open, manipulate, and forcefully terminate local applications like Notepad or Spotify at the OS level.
 
-* 🎨 **Gen-Z Premium Hacker Aesthetic**
-  Clean, aggressive UI inspired by terminal environments with modern visual polish.
+The interface features a "Gen-Z premium" hacker aesthetic, utilizing a terminal-style log system to show real-time "Reasoning" and "Execution" steps.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
-| Layer         | Technology                                                  |
-| ------------- | ----------------------------------------------------------- |
-| 🧠 AI Engine  | Groq API (Llama-3 70B Model)                                |
-| ⚙️ Backend    | FastAPI (Python)                                            |
-| 🤖 Automation | PyAutoGUI & Subprocess                                      |
-| 🌐 Frontend   | HTML5, CSS3 (Liquid Glass / Premium UI), Vanilla JavaScript |
-| 🎙️ Voice     | Windows 11 Native Voice Engine (Win + H)                    |
+* AI Engine: Groq API (Llama-3 70B Model)
+* Backend: FastAPI (Python)
+* Automation: PyAutoGUI & Subprocess
+* Frontend: HTML5, CSS3 (Liquid Glass/Premium UI), Vanilla JavaScript
+* Voice: Windows 11 Native Voice Engine (Win + H)
 
 ---
 
-## 🛠️ Deployment & Execution Steps
+## Deployment & Execution Steps
 
 ```bash
-# Navigate to project directory
 cd to your project location
-
-# Activate virtual environment
 .\venv\Scripts\activate
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Move to backend
 cd backend
-
-# Run server
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
----
-
-## 🌐 Launch Interface
-
-Open the **index.html** file located in the `frontend` folder directly in your browser
-(e.g., Microsoft Edge or Chrome) to initialize the OS.
+Open the `index.html` file located in the frontend folder directly in your browser (e.g., Microsoft Edge or Chrome) to initialize the OS.
 
 ---
-
-## 💡 Summary
-
-Z-OS redefines how users interact with machines — replacing traditional interfaces with **intent-driven execution**, powered by **ultra-low latency AI** and **direct system control**.
