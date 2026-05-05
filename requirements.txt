@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+groq
+pyautogui
+psutil
+python-dotenv
